@@ -44,7 +44,7 @@ public class MyFirebaseInstanceIDService extends FirebaseInstanceIdService {
                     .build();
 
             Request request = new Request.Builder()
-                    .url("http://192.168.1.102/rosterlive/mahasiswa/update_token")
+                    .url("http://himatif.usu.ac.id/rosterlive/mahasiswa/update_token")
                     .post(body)
                     .build();
 

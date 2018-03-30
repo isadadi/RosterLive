@@ -101,7 +101,7 @@ public class SQLiteHandler extends SQLiteOpenHelper {
     }
 
     public boolean cek_user(){
-        String query = "SELECT COUNT(*) as hasil FROM "+ TABLE_USER;
+        String query = "SELECT * FROM "+ TABLE_USER;
         SQLiteDatabase db = this.getReadableDatabase();
         Cursor cursor = db.rawQuery(query, null);
         cursor.moveToFirst();
