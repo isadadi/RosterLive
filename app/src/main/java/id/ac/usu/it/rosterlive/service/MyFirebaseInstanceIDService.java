@@ -50,7 +50,7 @@ public class MyFirebaseInstanceIDService extends FirebaseInstanceIdService {
 
             try {
                 client.newCall(request).execute();
-            } catch (IOException e) {
+            } catch (Exception e) {
                 e.printStackTrace();
             }
         }

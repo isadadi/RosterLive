@@ -60,19 +60,22 @@
                     android:id="@+id/mata_kuliah"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:clipChildren="false"
                     android:orientation="vertical">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Mata Kuliah"
+                        android:id="@+id/tv_judul_mtk"
                         android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
 
                     <TextView
                         android:id="@+id/tv_matakuliah"
-                        android:layout_width="wrap_content"
+                        android:layout_width="200dp"
                         android:layout_height="wrap_content"
                         android:text="Pemograman Mobile"
+                        android:layout_below="@id/mata_kuliah"
                         android:textStyle="bold" />
                 </LinearLayout>
 

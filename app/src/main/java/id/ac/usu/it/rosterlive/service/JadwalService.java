@@ -55,4 +55,7 @@ public interface JadwalService {
             @Field("jam") String jam,
             @Field("nim") String nim
     );
+
+
+
 }
